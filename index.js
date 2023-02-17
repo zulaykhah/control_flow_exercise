@@ -1,5 +1,5 @@
 // Declaring of Class Group
-let classGroup = "ADULT CLASS";
+let classGroup = "SCIENCE";
 
 // Declaring of various subjects in each class Group
 let scienceSubjects = 'Physics, Chemistry, Biology, TechnicalDrawing'; 
