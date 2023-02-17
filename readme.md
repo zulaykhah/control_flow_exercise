@@ -1,0 +1,64 @@
+## List the symbols for the following javaScript operators:
+- Arithmetic operators: addition (+), substraction (-), multiplication (*), division (/)
+
+- Assignment operators: equality sign (=)
+- Comparison operators: greater than (>), less than (<), greater than or equals to (>=), less than or equals to (<=), equality sign (==), strict equality sign (===), not equal to (!=), 
+- strictly not equal to (!==)
+- Logical operators: AND (&&), OR (||), NOT (!)
+- Bitwise operators: 
+- i. AND (&)
+- ii. OR (|)
+- iii. XOR (^)
+- iv. NOT (~)
+- v. zero fill left shift (<<)
+- vi. signed right shift (>>)
+- vii. zero fill right shift (>>>)
+
+## For each JavaScript Operator, write 2 examples:
+- Arithmetic operators: 
+- i. Addition
+-    let x = 10;
+-    let y = 5;
+-    let z = x + y;
+-    console.log(z);
+- ii. Multiplication
+-     let a = 20;
+-     let b = 5;
+-     let c = a * b;
+-     console.log(c);
+- Assignment operator:
+- i. let x = 5;
+- ii.   x = x + 5;
+-     console.log(x);
+- Comparison operator:
+- i. greater than
+-    let a = 3;
+-    let b = 2;
+-    console.log(a > b);
+- ii. strict equality
+-     let apples = 5;
+-     let oranges = '5';
+-     console.log(5 === '5');
+- Logical operators:
+- i. AND (&&):
+-    let eat = 'true';
+-    let notEating = 'false';
+-    let either = eat && notEating;
+-    console.log(either);
+- ii. OR (||):
+-     let eat = 'true';
+-     let notEating = 'true';
+-     let either = eat || notEating;
+-     console.log(either);
+- Bitwise operator:
+- i. AND: is performed on a pair of bits, it returns 1 if both bits are 1. i.e
+- 0 & 0 = 0
+- 1 & 0 = 0
+- 0 & 1 = 0
+- 1 & 1 = 1
+- ii. OR: is performed on a pair of bits, it returns 1 if one of the bits is 1. i.e
+- 0 | 0 = 0
+- 0 | 1 = 1
+- 1 | 0 = 1
+- 1 | 1 = 1
+
