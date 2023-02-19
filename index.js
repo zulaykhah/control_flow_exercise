@@ -29,4 +29,9 @@ if (classGroup == 'SCIENCE' && SCIENCE == scienceSubjects) {
     console.log(generalSubjects);
 }
 
+// Question 4
 
+for (let i = 1; i < 20; i += 7) {
+    console.log(i);
+}
+// logs out: 1,8,15
