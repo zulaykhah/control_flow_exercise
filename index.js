@@ -1,3 +1,4 @@
+// Question 3
 // Declaring of Class Group
 let classGroup = "SCIENCE";
 
@@ -35,3 +36,17 @@ for (let i = 1; i < 20; i += 7) {
     console.log(i);
 }
 // logs out: 1,8,15
+
+// Question 5
+function findPower(num) {
+// positive numbers
+    let base = 1;
+    while (base < num){
+        base *= 2;
+        if (num - base < Math.floor(base/2)) {
+            return("The number " + base + " is the power of 2 nearest to " + num);
+        }
+    }
+}
+const num = 40;
+console.log(findPower(num));
